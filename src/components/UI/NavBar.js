@@ -1,9 +1,10 @@
-/** @format */
 
+import "../../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "../UI/Images/logo.png";
 function NavBar() {
   return (
+    <div className="nav">
     <nav className='bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-white-900'>
       <div className='container flex flex-wrap items-center justify-between mx-auto'>
         <Link to='/' className='flex items-center'>
@@ -70,6 +71,7 @@ function NavBar() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
 
