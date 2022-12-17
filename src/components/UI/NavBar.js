@@ -5,7 +5,7 @@ import logo from "../UI/Images/logo.png";
 function NavBar() {
   return (
     <div className="nav">
-    <nav className='bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-white-900'>
+    <nav className=' border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-white-900'>
       <div className='container flex flex-wrap items-center justify-between mx-auto'>
         <Link to='/' className='flex items-center'>
           <img src={logo} className='h-1 mr-1 sm:h-9' alt='Flowbite Logo' />
@@ -43,28 +43,28 @@ function NavBar() {
               <Link
                 to='/'
                 className='block py-2 pl-3 pr-4 text-red-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-red-400 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
-                About
+                Education
               </Link>
             </li>
             <li>
               <Link
                 to='/'
                 className='block py-2 pl-3 pr-4 text-red-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-red-400 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
-                Services
+                Experience
               </Link>
             </li>
             <li>
               <Link
                 to='/'
                 className='block py-2 pl-3 pr-4 text-red-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-red-400 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
-                Pricing
+                Projects
               </Link>
             </li>
             <li>
               <Link
                 to='/'
                 className='block py-2 pl-3 pr-4 text-red-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-red-400 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
-                Contact
+                Contact Me
               </Link>
             </li>
           </ul>
